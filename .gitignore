@@ -1,0 +1,5 @@
+# Ignore the module itself
+.modl
+
+# Ignore the readme.md file
+readme.md
