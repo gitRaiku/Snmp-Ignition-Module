@@ -3,3 +3,9 @@
 
 # Ignore the readme.md file
 readme.md
+
+# Ignore the build folder
+**/snmp-build
+
+# Ignore the Target Folders
+**/target
