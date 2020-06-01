@@ -71,7 +71,7 @@
                         </projectScope>
                     </projectScopes>
 
-                    <moduleId>allnetauto.ca.snmp</moduleId>
+                    <moduleId>ca.allnetauto.common.snmp</moduleId>
                     <moduleName>${project.parent.name}</moduleName>
                     <moduleDescription>${project.description}</moduleDescription>
                     <moduleVersion>1.0.0</moduleVersion>
@@ -80,15 +80,15 @@
                     <hooks>
                         <hook>
                             <scope>C</scope>
-                            <hookClass>allnetauto.ca.client.ClientHook</hookClass>
+                            <hookClass>ca.allnetauto.client.ClientHook</hookClass>
                         </hook>
                         <hook>
                             <scope>D</scope>
-                            <hookClass>allnetauto.ca.designer.DesignerHook</hookClass>
+                            <hookClass>ca.allnetauto.designer.DesignerHook</hookClass>
                         </hook>
                         <hook>
                             <scope>G</scope>
-                            <hookClass>allnetauto.ca.GatewayHook</hookClass>
+                            <hookClass>ca.allnetauto.gateway.GatewayHook</hookClass>
                         </hook>
                     </hooks>
 

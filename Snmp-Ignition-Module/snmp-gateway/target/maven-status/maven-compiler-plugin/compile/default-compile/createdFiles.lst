@@ -1,2 +1,2 @@
-allnetauto\ca\GatewayHook.class
-allnetauto\ca\GatewayScriptModule.class
+ca\allnetauto\gateway\GatewayHook.class
+ca\allnetauto\gateway\GatewayScriptModule.class
