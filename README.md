@@ -1,6 +1,11 @@
 # Snmp-Ignition-Module
 A module that allows the user to use snmp operations in scripts
 
+# Newer projects
+Killez has forked my project having added walk functionality among other things, so go show him some love
+https://github.com/kiilez/Snmp-Ignition-Module
+
+# Limitations
 As of now the only operation available is snmp Get and can be called by using <code>system.snmp.get('address', port, ['OID1', 'OID2', ...], 'community')</code>, This will return a python list with the length equal to the number of OIDs provided
 
 You can also specify other variables like the snmp version, timeout or retry count by adding 'var=value' as an extra parameter at the end.
